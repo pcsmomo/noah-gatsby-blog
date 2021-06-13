@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
       <Seo title="Home" />
       <div>
         <h1>Noah's Thoughts</h1>
-        <h4>{totalCount}</h4>
+        <h4>{totalCount} Posts</h4>
         {edges.map(({ node }) => {
           const { id, frontmatter, excerpt, fields } = node
           return (
